@@ -166,7 +166,11 @@ spam_running = {}
 
 @app.on_message(filters.command("alive", prefixes=".") & filters.user(SUDO_USERS))
 async def alive(_, message):
-    await message.reply_text("READY")
+    await message.reply_text("👑 🔥 ZEN BOT IS ACTIVE 🔥 👑
+
+⚡ Owner Matrix: @ZenNXt7
+
+📡 Status Level: ULTRA GAND FAAD MODE")
 
 # =============== PING ===============
 
